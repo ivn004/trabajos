@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="master">
+
+        <header>
+            <a href="home.html">
+                <img src="img/logo.png" alt="logo">
+            </a>
+            <nav>
+                <ul class="nav">
+                    <li><a href="home.html">SMARTPHONES</a></li>
+                    <li><a href="home.html">TABLETS</a></li>
+                    <li><a href="home.html">COMPUTADORAS</a></li>
+                </ul>
+                <ul class="log">
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="registro.html">REGISTRO</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="registro">
+            <div class="form">
+                <h1>Registrate</h1>
+                <form action="home.html">
+                    <div class="Entradas">
+                        <label for="nombre">Nombre</label>
+                        <br>
+                        <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre">
+                    </div>
+                    <p>Obligatorio</p>
+                    <div class="Entradas">
+                        <label for="mail">Email</label>
+                        <br>
+                        <input type="email" name="mail" id="mail" placeholder="Ingresa tu email">
+                    </div>
+                    <p>Obligatorio</p>
+                    <div class="Entradas">
+                        <label for="pass">Contraseña</label>
+                        <br>
+                        <input type="password" name="pass" id="pass" placeholder="Password">
+                    </div>
+                    <p>Obligatorio</p>
+                    <div class="negrita">
+                        <label for="Lugares">País de nacimiento</label>
+                        <br>
+                        <br>
+                        <select name="Lugares" id="" >             
+                            <option value="arg">Argentina</option>
+                            <option value="cl">Chile</option>
+                            <option value="mx">Mexico</option>
+                            <option value="br">Brasil</option>
+                        </select>
+                    </div>
+                    <p>Obligatorio</p>
+                    <div class="negrita">
+                        <label for="Genero">Genero</label>
+                        <br>
+                        <input type="radio" name="" id="Genero" value="M">Masculino
+                        <input type="radio" name="" id="Genero" value="F">Femenino
+                        <input type="radio" name="" id="Genero" value="O">Prefiero no decirlo
+                    </div>
+                    <div class="negrita">
+                        <label for="hobbies">Hobbies</label>
+                        <br>
+                        <input type="checkbox" name="" id="hobbies" value="G">Guitarra
+                        <input type="checkbox" name="" id="hobbies" value="F">Futbol
+                        <input type="checkbox" name="" id="hobbies" value="T">Tenis
+                        <input type="checkbox" name="" id="hobbies" value="P">Programación
+                    </div>
+                    <div class="negrita">
+                        <label for="comentarios">Dejanos tus comentarios</label>
+                        <br>
+                        <br>
+                        <textarea name="" id="comentarios" cols="50" rows="10"></textarea>
+                    </div>
+                    <div class="terminos">
+                        <input type="checkbox" name="" id="accepto">
+                        <label for="accepto">Acepto los terminos y condiciones.</label>
+                    </div>
+                    <br>
+                    <div class="botones">
+                        <label for="">Botón enviar con la etiqueta 'input'</label>
+                        <br>
+                        <input type="button" value="Registrarme">
+                        <input type="button" value="Cancelar">
+                    </div>
+                    <br>
+                    <div class="botones">
+                        <label for="">Botones enviar con la etiqueta 'button'</label>
+                        <button type="submit">Registrarme</button>
+                        <button type="reset">Cancelar</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+
+    </div>
+</body>
+</html>

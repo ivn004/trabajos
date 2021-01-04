@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="master">
+
+        <header>
+            <a href="home.html">
+                <img src="img/logo.png" alt="logo">
+            </a>
+            <nav>
+                <ul class="nav">
+                    <li><a href="home.html">SMARTPHONES</a></li>
+                    <li><a href="home.html">TABLETS</a></li>
+                    <li><a href="home.html">COMPUTADORAS</a></li>
+                </ul>
+                <ul class="log">
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="registro.html">REGISTRO</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="login">
+            <div class="form">
+                <h1>Bienvenido</h1>
+                <form action="home.html">
+                    <div class="Entradas">
+                        <label for="mail">Email</label>
+                        <br>
+                        <input type="email" name="mail" id="mail" placeholder="Email">
+                    </div>
+                    <div class="Entradas">
+                        <label for="pass">Contraseña</label>
+                        <br>
+                        <input type="password" name="pass" id="pass" placeholder="Password">
+                    </div>
+                    <div class="Recordar">
+                        <label for="recordar">Recordarme</label>
+                        <input type="checkbox" name="recordar" id="recordar">
+                    </div>
+                    <p>
+                    La combinacion ingresada de email y contraseña no es valida
+                    </p>
+                    <button type="submit">Ingresar</button>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
